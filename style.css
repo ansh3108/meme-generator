@@ -39,3 +39,33 @@ body {
   border-radius: 2em;
   cursor: pointer;
 }
+#letter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em 0.4em;
+  justify-content: center;
+  margin-top: 2em;
+}
+#letter-container button {
+  background-color: #ffffff;
+  border: 2px solid #7786f5;
+  color: #7786f5;
+  outline: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  height: 3em;
+  width: 3em;
+}
+.hint-ref {
+  margin-bottom: 1em;
+}
+.hint-ref span {
+  font-weight: 600;
+}
+#wordHint {
+  margin-bottom: 2em;
+}
+.inputSpace {
+  font-size: 2em;
+  margin: 0 0.2em;
+}
