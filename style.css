@@ -13,6 +13,7 @@ body {
   max-width: 37em;
   background-color: #ffffff;
   padding: 7em 3em;
+  position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -56,16 +57,36 @@ body {
   height: 3em;
   width: 3em;
 }
+#letter-container .correct {
+  background-color: #008000;
+  color: #ffffff;
+  border: 2px solid #008000;
+}
+#letter-container .incorrect {
+  background-color: #8a8686;
+  color: #ffffff;
+  border: 2px solid #8a8686;
+}
 .hint-ref {
   margin-bottom: 1em;
 }
 .hint-ref span {
   font-weight: 600;
 }
-#wordHint {
-  margin-bottom: 2em;
+#chanceCount {
+  margin: 1em 0;
+  position: absolute;
+  top: 0.62em;
+  right: 2em;
 }
-.inputSpace {
-  font-size: 2em;
-  margin: 0 0.2em;
+#word {
+  font-weight: 600;
+  margin: 1em 0 2em 0;
+}
+#word span {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.hide {
+  display: none;
 }
